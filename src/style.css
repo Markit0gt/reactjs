@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header .menu-header{
+    border-bottom: 3px solid black;
+    background-color: gainsboro;
+}
+header div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header div ul li{
+    color: rgb(49, 0, 0);
+    padding: 15px;
+}
