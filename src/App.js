@@ -1,15 +1,16 @@
 import './App.css';
-import Navbar from './components/navbar';
 import './style.css';
+import Header from './components/header';
+import ItemList from './components/ItemList';
+
+
 
 function App() {
   return (
     <div>
-      <header>
-        <Navbar />
-      </header>
+      <Header/>
       <main>
-
+        <ItemList name='Los pollos hermanos'/>
       </main>
     </div>
   );

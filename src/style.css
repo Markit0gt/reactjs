@@ -1,17 +1,43 @@
+import react
 *{
     padding: 0;
     margin: 0;
 }
-header .menu-header{
+
+.headercss{
+    background-color: orange;
     border-bottom: 3px solid black;
-    background-color: gainsboro;
 }
-header div ul{
+
+.menu-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-header ul{
+    padding-left: 0%;
     display: flex;
     flex-direction: row;
     list-style: none;
+    flex-wrap: wrap;
 }
-header div ul li{
+.menu-header ul li{
     color: rgb(49, 0, 0);
     padding: 15px;
+    font-size: 20px;
+}
+.headerimg-container{
+    margin-left: 20px;
+}
+.imgpng-container{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.imgpng-container h2{
+    font-size: 25px;
+}
+.imgpng-container img{
+    width: 35%;
 }
